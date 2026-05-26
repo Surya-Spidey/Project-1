@@ -8,7 +8,7 @@
 //     city : "New York"
 // }
 // a.name = "Jane";
-// console.log(a.name);
+// console.log(a.name);~
 // let b = [ {name : "Surya", age : 22}, {name : "Siva", age : 25}];
 // console.log(b[0].name);
 
@@ -17,7 +17,7 @@ const app = express();      // Creating an instance of the Express application
 const port = 3000;
 
 app.get("/", (req,res) => {
-    res.send("Hello World");   //  Sending "Hello World" as a response via GET method
+    res.send(<h1>HELLO WORLD</h1>);   //  Sending "Hello World" as a response via GET method
 });
 
 app.listen(port, () => {
