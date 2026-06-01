@@ -17,7 +17,7 @@ const app = express();      // Creating an instance of the Express application
 const port = 3000;
 
 app.get("/", (req,res) => {
-    res.send("<h1>HELLO WORLD</h1>");   //  Sending "Hello World" as a response via GET method
+    res.send("<h1>HELLO WORLD</h1>");   //  Sending "Hello World" as a HTML tag response via GET method
 });
 
 app.listen(port, () => {
